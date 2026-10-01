@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions — Spendly{% endblock %}
+
+{% block content %}
+
+<section class="legal-section">
+    <div class="legal-container">
+
+        <div class="legal-header">
+            <h1 class="auth-title">Terms and Conditions</h1>
+            <p class="auth-subtitle">Last updated: October 2026</p>
+        </div>
+
+        <div class="legal-card">
+            <h2>1. Acceptance of Terms</h2>
+            <p>
+                By creating an account or using Spendly, you agree to these Terms and
+                Conditions. If you do not agree, please do not use the service.
+            </p>
+
+            <h2>2. Use of Service</h2>
+            <p>
+                Spendly is a personal expense tracking tool. You agree to use it only for
+                lawful purposes and for managing your own finances. You are responsible for
+                keeping your account credentials secure and for all activity under your account.
+            </p>
+
+            <h2>3. User Data</h2>
+            <p>
+                The expenses and other information you enter remain yours. We store this data
+                only to provide the service to you and do not sell it to third parties. You may
+                delete your expenses or your account at any time.
+            </p>
+
+            <h2>4. Limitations of Liability</h2>
+            <p>
+                Spendly is provided "as is" without warranties of any kind. We are not
+                responsible for financial decisions made based on information in the app, or
+                for any loss of data. Spendly is not a substitute for professional financial advice.
+            </p>
+
+            <h2>5. Changes to Terms</h2>
+            <p>
+                We may update these terms from time to time. When we do, we will revise the
+                "Last updated" date above. Continued use of Spendly after changes means you
+                accept the updated terms.
+            </p>
+        </div>
+
+        <p class="auth-switch">
+            <a href="{{ url_for('landing') }}">Back to home</a>
+        </p>
+
+    </div>
+</section>
+
+{% endblock %}
